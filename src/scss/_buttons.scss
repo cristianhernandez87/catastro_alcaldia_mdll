@@ -1,0 +1,126 @@
+// btn
+
+.btn {
+    @extend %transform_05;
+    &:focus { color: $color_primary; }
+    &:focus-visible { outline: initial; }
+    // &:hover { transform: scale(.5); }
+    &:focus {
+        background-color: $color_white;
+        color: $color_primary;
+        box-shadow: none;
+    }
+    &.btn {
+        &-reset {
+            @include border-radius(0);
+            padding: 0;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            &-underline {
+                text-decoration: underline;
+            }
+        }
+        &-round {
+            @include border-radius(3px);
+            letter-spacing: 1px;
+            &:hover { background-color: $color_secondary; }
+        }
+        &-solid {
+            @include border-radius(0);
+            &:hover {
+                background-color: $color_secondary !important;
+                color: $color_black !important;
+                box-shadow: 0px 5px 14px -4px rgba(92,92,92,0.7);
+            }
+        }
+        &-border {
+            border: 1px solid;
+            &-primary {
+                border-color: $color_primary;
+                color: $color_primary;
+            }
+            &-secondary {
+                border-color: $color_secondary;
+                color: $color_secondary;
+            }
+            &-tertiary {
+                border-color: $color_tertiary;
+                color: $color_secondary;
+            }
+            &-quaternary {
+                border-color: $color_quaternary;
+                color: $color_secondary;
+            }
+            &-five {
+                border-color: $color_five;
+                color: $color_five;
+            }
+            &-six {
+                border-color: $color_six;
+                color: $color_six;
+            }
+            &-seven {
+                border-color: $color_seven;
+                color: $color_seven;
+            }
+            &-white {
+                border-color: $color_white;
+                color: $color_white;
+            }
+            &-tertiary {
+                border-color: $color_tertiary;
+            }
+            &-black {
+                border-color: $color_black;
+            }
+        }
+        &-primary {
+            background-color: $color_primary;
+            color: $color_white;
+        }
+        &-secondary {
+            background-color: $color_secondary;
+            color: $color_white;
+        }
+        &-tertiary {
+            background-color: $color_tertiary;
+            color: $color_white;
+        }
+        &-quaternary {
+            background-color: $color_quaternary;
+            color: $color_white;
+        }
+        &-five {
+            background-color: $color_five;
+            color: $color_white;
+        }
+        &-six {
+            background-color: $color_six;
+            color: $color_white;
+        }
+        &-seven {
+            background-color: $color_seven;
+            color: $color_white;
+        }
+        &-eight {
+            background-color: $color_eight;
+            &-force { background-color: $color_eight !important; }
+        }
+        &-black {
+            background-color: $color_black;
+            color: $color_white;
+        }
+        &-white {
+            background-color: $color_white;
+            color: $color_black;
+        }
+    }
+}
+
+a, a:link {
+    &:focus {
+        background-color: $color_transparent !important;
+        text-decoration: auto !important;
+    }
+}

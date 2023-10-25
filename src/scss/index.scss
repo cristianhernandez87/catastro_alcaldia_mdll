@@ -1,0 +1,35 @@
+@import '~normalize-scss';
+// @import '~bootstrap/scss/bootstrap';
+@import '~accordion/src/accordion';
+@import 'responsive';
+@import 'colors';
+@import 'fonts';
+@import 'mixing_artefacts';
+@import 'custom';
+@import 'overrides';
+@import 'border';
+@import 'images';
+@import 'dots';
+@import 'text';
+@import 'bg';
+@import 'position';
+@import 'icon';
+@import 'list';
+@import 'box_shadow';
+@import 'buttons';
+@import 'colum';
+@import 'col';
+// components
+// boards
+// sections
+@import '../components/sections/s-hero/s-hero';
+// resources
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+// @import "~flickity/css/flickity";
+// @import "~flickity-fullscreen/fullscreen.css";
+// @import "~lightbox2/dist/css/lightbox.css";
+// @import "~lightgallery/src/css/lightgallery.css";

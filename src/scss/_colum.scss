@@ -1,0 +1,23 @@
+// columns
+.colum {
+    &-1 { columns: 1; }
+    &-2 { columns: 2; }
+    &-3 { columns: 3; }
+    &-4 { columns: 4; }
+    &.colum {
+        &-lg {
+            &-1 { 
+                @include breakpoint(desktop) { columns: 1; }
+            }
+            &-2 { 
+                @include breakpoint(desktop) { columns: 2; }
+            }
+            &-3 { 
+                @include breakpoint(desktop) { columns: 3; }
+            }
+            &-4 { 
+                @include breakpoint(desktop) { columns: 4; }
+            }
+        }
+    }
+}

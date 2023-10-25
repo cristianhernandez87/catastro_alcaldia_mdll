@@ -1,0 +1,81 @@
+// border
+.border {
+    border: 1px solid !important;
+    &-primary { border-color: $color_primary !important; }
+    &-secondary { border-color: $color_secondary !important; }
+    &-tertiary { border-color: $color_tertiary !important; }
+    &-quaternary { border-color: $color_quaternary !important; }
+    &-five { border-color: $color_five !important; }
+    &-six { border-color: $color_six !important; }
+    &-seven { border-color: $color_seven !important; }
+    &-ten { border-color: $color_ten !important; }
+    &-black { border-color: $color_black !important; }
+    &-white { border-color: $color_white !important; }
+    &-transparent { border-color: $color_transparent !important; }
+    &-top {
+        border-top: 1px solid !important;
+        &-primary { border-top-color: $color_primary !important; }
+        &-secondary { border-top-color: $color_secondary !important; }
+        &-tertiary { border-top-color: $color_tertiary !important; }
+        &-quaternary { border-top-color: $color_quaternary !important; }
+        &-five { border-top-color: $color_five !important; }
+        &-six { border-top-color: $color_six !important; }
+        &-seven { border-top-color: $color_seven !important; }
+        &-black { border-top-color: $color_black !important; }
+        &-white { border-top-color: $color_white !important; }
+        &-transparent { border-top-color: $color_transparent !important; }
+    }
+    &-bottom {
+        border-bottom: 1px solid !important;
+        &-primary { border-bottom-color: $color_primary !important; }
+        &-secondary { border-bottom-color: $color_secondary !important; }
+        &-tertiary { border-bottom-color: $color_tertiary !important; }
+        &-quaternary { border-bottom-color: $color_quaternary !important; }
+        &-five { border-bottom-color: $color_five !important; }
+        &-six { border-bottom-color: $color_six !important; }
+        &-seven { border-bottom-color: $color_seven !important; }
+        &-black { border-bottom-color: $color_black !important; }
+        &-white { border-bottom-color: $color_white !important; }
+        &-transparent { border-bottom-color: $color_transparent !important; }
+        &-width {
+            &-0 {
+                border-bottom-width: 0 !important;
+                &-1 { border-bottom-width: 0.1rem !important; }
+                &-2 { border-bottom-width: 0.2rem !important; }
+                &-3 { border-bottom-width: 0.3rem !important; }
+                &-4 { border-bottom-width: 0.4rem !important; }
+                &-5 { border-bottom-width: 0.5rem !important; }
+                &-6 { border-bottom-width: 0.6rem !important; }
+                &-7 { border-bottom-width: 0.7rem !important; }
+                &-8 { border-bottom-width: 0.8rem !important; }
+                &-9 { border-bottom-width: 0.9rem !important; }
+            }
+        }
+    }
+    &-left {
+        border-left: 1px solid !important;
+        &-primary { border-left-color: $color_primary !important; }
+        &-secondary { border-left-color: $color_secondary !important; }
+        &-tertiary { border-left-color: $color_tertiary !important; }
+        &-quaternary { border-left-color: $color_quaternary !important; }
+        &-five { border-left-color: $color_five !important; }
+        &-six { border-left-color: $color_six !important; }
+        &-seven { border-left-color: $color_seven !important; }
+        &-black { border-left-color: $color_black !important; }
+        &-white { border-left-color: $color_white !important; }
+        &-transparent { border-left-color: $color_transparent !important; }
+    }
+    &-right {
+        border-right: 1px solid !important;
+        &-primary { border-right-color: $color_primary !important; }
+        &-secondary { border-right-color: $color_secondary !important; }
+        &-tertiary { border-right-color: $color_tertiary !important; }
+        &-quaternary { border-right-color: $color_quaternary !important; }
+        &-five { border-right-color: $color_five !important; }
+        &-six { border-right-color: $color_six !important; }
+        &-seven { border-right-color: $color_seven !important; }
+        &-black { border-right-color: $color_black !important; }
+        &-white { border-right-color: $color_white !important; }
+        &-transparent { border-right-color: $color_transparent !important; }
+    }
+}

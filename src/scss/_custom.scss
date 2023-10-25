@@ -1,0 +1,5 @@
+.custom {
+    &.c--mb {
+        @include breakpoint(extra-plus) { margin-bottom: 6rem !important; }
+    }
+}

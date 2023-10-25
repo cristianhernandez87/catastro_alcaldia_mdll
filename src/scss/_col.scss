@@ -1,0 +1,11 @@
+// col
+.col {
+    &-lg {
+        &-20 {
+            @include breakpoint(desktop) {
+                flex: 0 0 20%;
+                max-width: 20%;
+            }
+        }
+    }
+}

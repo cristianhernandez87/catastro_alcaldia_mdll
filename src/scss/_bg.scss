@@ -1,0 +1,26 @@
+// bg
+.bg {
+    @extend %transform_05;
+    &.bg {
+        &-color {
+            &-primary { background-color: $color_primary; }
+            &-secondary { background-color: $color_secondary; }
+            &-tertiary { background-color: $color_tertiary; }
+            &-quaternary { background-color: $color_quaternary; }
+            &-five { background-color: $color_five; }
+            &-six { background-color: $color_six; }
+            &-seven { background-color: $color_seven; }
+            &-nine { background-color: $color_nine; }
+            &-text_primary { background-color: $color_text_primary; }
+            &-black { background-color: $color_black; }
+            &-white { background-color: $color_white; }
+            &-transparent { background-color: $color_transparent; }
+        }
+        &-image {
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            &-repeat { background-repeat: repeat; }
+        }
+    }
+}

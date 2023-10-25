@@ -1,0 +1,39 @@
+// list
+.list {
+    &-none {
+        list-style: none;
+        padding: 0;
+    }
+    &-square {
+        list-style: none;
+        li {
+            position: relative;
+            padding-left: 1rem;
+            &:before {
+                @extend %after-before-bas;
+                @include border-radius(100%);
+                width: .3rem;
+                height: .3rem;
+                background-color: $color_black;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+            }
+        }
+        &-primary {
+            li {
+                &:before { background-color: $color_primary; }
+            }
+        }
+        &-white {
+            li {
+                &:before { background-color: $color_white; }
+            }
+        }
+        &-secondary {
+            li {
+                &:before { background-color: $color_secondary; }
+            }
+        }
+    }
+}

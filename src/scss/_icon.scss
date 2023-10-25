@@ -1,0 +1,45 @@
+// icon
+.icon {
+    @extend %transform_05;
+    &.icon {
+        &-color {
+            &-primary { color: $color_primary; }
+            &-secondary { color: $color_secondary; }
+            &-tertiary { color: $color_tertiary; }
+            &-quaternary { color: $color_quaternary; }
+            &-five { color: $color_five; }
+            &-six { color: $color_six; }
+            &-seven { color: $color_seven; }
+            &-text_primary { color: $color_text_primary; }
+            &-black { color: $color_black; }
+            &-white { color: $color_white; }
+            &-transparent { color: $color_transparent; }
+        }
+        &-size {
+            &-0 {
+                &-1 { font-size: .1rem; }
+                &-2 { font-size: .2rem; }
+                &-3 { font-size: .3rem; }
+                &-4 { font-size: .4rem; }
+                &-5 { font-size: .5rem; }
+                &-6 { font-size: .6rem; }
+                &-7 { font-size: .7rem; }
+                &-8 { font-size: .8rem; }
+                &-9 { font-size: .9rem; }
+            }
+            &-1 {
+                font-size: 1rem;
+                &-5 { font-size: 1.5rem; }
+            }
+            &-2 { font-size: 2rem; }
+            &-3 { font-size: 3rem; }
+            &-4 { font-size: 4rem; }
+            &-5 { font-size: 5rem; }
+            &-6 { font-size: 6rem; }
+            &-7 { font-size: 7rem; }
+            &-8 { font-size: 8rem; }
+            &-9 { font-size: 9rem; }
+            &-10 { font-size: 10rem; }
+        }
+    }
+}

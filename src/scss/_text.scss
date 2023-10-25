@@ -1,0 +1,199 @@
+// text
+.text {
+    font-family: $font_primary;
+    font-size: 1rem;
+    color: $color_text_primary;
+    &.text {
+        &-family {
+            &-primary { font-family: $font_primary; }
+            &-secondary { font-family: $font_secondary; }
+        }
+        &-size {
+            &-0 {
+                &-5 { font-size: .5rem; }
+                &-6 { font-size: .6rem; }
+                &-7 { font-size: .7rem; }
+                &-8 { font-size: .8rem; }
+                &-9 { font-size: .9rem; }
+            }
+            &-1 {
+                font-size: 1rem;
+                &-1 { font-size: 1.1rem; }
+                &-2 { font-size: 1.2rem; }
+                &-3 { font-size: 1.3rem; }
+                &-4 { font-size: 1.4rem; }
+                &-5 { font-size: 1.5rem; }
+                &-6 { font-size: 1.6rem; }
+                &-7 { font-size: 1.7rem; }
+                &-8 { font-size: 1.8rem; }
+                &-9 { font-size: 1.9rem; }
+            }
+            &-2 {
+                font-size: 2rem;
+                &-3 { font-size: 2.3rem; }
+                &-4 { font-size: 2.4rem; }
+                &-5 { font-size: 2.5rem; }
+                &-6 { font-size: 2.6rem; }
+                &-7 { font-size: 2.7rem; }
+                &-8 { font-size: 2.8rem; }
+                &-9 { font-size: 2.9rem; }
+            }
+            &-3 {
+                font-size: 3rem;
+                &-1 { font-size: 3.1rem; }
+                &-2 { font-size: 3.2rem; }
+                &-3 { font-size: 3.3rem; }
+                &-4 { font-size: 3.4rem; }
+                &-5 { font-size: 3.5rem; }
+                &-6 { font-size: 3.6rem; }
+                &-7 { font-size: 3.7rem; }
+                &-8 { font-size: 3.8rem; }
+                &-9 { font-size: 3.9rem; }
+            }
+            &-4 { font-size: 4rem; }
+            &-5 { font-size: 5rem; }
+            &-6 { font-size: 6rem; }
+            &-7 { font-size: 7rem; }
+            &-md {
+                &-0 {
+                    @include breakpoint(tablet) { font-size: 0; }
+                    &-5 { @include breakpoint(tablet) { font-size: .5rem; }}
+                    &-6 { @include breakpoint(tablet) { font-size: .6rem; }}
+                    &-7 { @include breakpoint(tablet) { font-size: .7rem; }}
+                    &-8 { @include breakpoint(tablet) { font-size: .8rem; }}
+                    &-9 { @include breakpoint(tablet) { font-size: .9rem; }}
+                }
+                &-1 {
+                    @include breakpoint(tablet) { font-size: 1rem; }
+                    &-1 { @include breakpoint(tablet) { font-size: 1.1rem; } }
+                    &-2 { @include breakpoint(tablet) { font-size: 1.2rem; } }
+                    &-3 { @include breakpoint(tablet) { font-size: 1.3rem; } }
+                    &-4 { @include breakpoint(tablet) { font-size: 1.4rem; } }
+                    &-5 { @include breakpoint(tablet) { font-size: 1.5rem; } }
+                    &-6 { @include breakpoint(tablet) { font-size: 1.6rem; } }
+                    &-7 { @include breakpoint(tablet) { font-size: 1.7rem; } }
+                    &-8 { @include breakpoint(tablet) { font-size: 1.8rem; } }
+                    &-9 { @include breakpoint(tablet) { font-size: 1.9rem; } }
+                }
+                &-2 {
+                    @include breakpoint(tablet) { font-size: 2rem; }
+                    &-1 { @include breakpoint(tablet) { font-size: 2.1rem; } }
+                    &-2 { @include breakpoint(tablet) { font-size: 2.2rem; } }
+                    &-3 { @include breakpoint(tablet) { font-size: 2.3rem; } }
+                    &-4 { @include breakpoint(tablet) { font-size: 2.4rem; } }
+                    &-5 { @include breakpoint(tablet) { font-size: 2.5rem; } }
+                    &-6 { @include breakpoint(tablet) { font-size: 2.6rem; } }
+                    &-7 { @include breakpoint(tablet) { font-size: 2.7rem; } }
+                    &-8 { @include breakpoint(tablet) { font-size: 2.8rem; } }
+                    &-9 { @include breakpoint(tablet) { font-size: 2.9rem; } }
+                }
+                &-3 {
+                    @include breakpoint(tablet) { font-size: 3rem; }
+                    &-1 { @include breakpoint(tablet) { font-size: 3.1rem; } }
+                    &-2 { @include breakpoint(tablet) { font-size: 3.2rem; } }
+                    &-3 { @include breakpoint(tablet) { font-size: 3.3rem; } }
+                    &-4 { @include breakpoint(tablet) { font-size: 3.4rem; } }
+                    &-5 { @include breakpoint(tablet) { font-size: 3.5rem; } }
+                    &-6 { @include breakpoint(tablet) { font-size: 3.6rem; } }
+                    &-7 { @include breakpoint(tablet) { font-size: 3.7rem; } }
+                    &-8 { @include breakpoint(tablet) { font-size: 3.8rem; } }
+                    &-9 { @include breakpoint(tablet) { font-size: 3.9rem; } }
+                }
+                &-4 { @include breakpoint(tablet) { font-size: 4rem; } }
+                &-5 { @include breakpoint(tablet) { font-size: 5rem; } }
+                &-6 { @include breakpoint(tablet) { font-size: 6rem; } }
+                &-7 { @include breakpoint(tablet) { font-size: 7rem; } }
+            }
+            &-lg {
+                &-0 {
+                    @include breakpoint(desktop) { font-size: 0; }
+                    &-5 { @include breakpoint(desktop) { font-size: .5rem; }}
+                    &-6 { @include breakpoint(desktop) { font-size: .6rem; }}
+                    &-7 { @include breakpoint(desktop) { font-size: .7rem; }}
+                    &-8 { @include breakpoint(desktop) { font-size: .8rem; }}
+                    &-9 { @include breakpoint(desktop) { font-size: .9rem; }}
+                }
+                &-1 {
+                    @include breakpoint(desktop) { font-size: 1rem; }
+                    &-1 { @include breakpoint(desktop) { font-size: 1.1rem; } }
+                    &-2 { @include breakpoint(desktop) { font-size: 1.2rem; } }
+                    &-3 { @include breakpoint(desktop) { font-size: 1.3rem; } }
+                    &-4 { @include breakpoint(desktop) { font-size: 1.4rem; } }
+                    &-5 { @include breakpoint(desktop) { font-size: 1.5rem; } }
+                    &-6 { @include breakpoint(desktop) { font-size: 1.6rem; } }
+                    &-7 { @include breakpoint(desktop) { font-size: 1.7rem; } }
+                    &-8 { @include breakpoint(desktop) { font-size: 1.8rem; } }
+                    &-9 { @include breakpoint(desktop) { font-size: 1.9rem; } }
+                }
+                &-2 {
+                    @include breakpoint(desktop) { font-size: 2rem; }
+                    &-1 { @include breakpoint(desktop) { font-size: 2.1rem; } }
+                    &-2 { @include breakpoint(desktop) { font-size: 2.2rem; } }
+                    &-3 { @include breakpoint(desktop) { font-size: 2.3rem; } }
+                    &-4 { @include breakpoint(desktop) { font-size: 2.4rem; } }
+                    &-5 { @include breakpoint(desktop) { font-size: 2.5rem; } }
+                    &-6 { @include breakpoint(desktop) { font-size: 2.6rem; } }
+                    &-7 { @include breakpoint(desktop) { font-size: 2.7rem; } }
+                    &-8 { @include breakpoint(desktop) { font-size: 2.8rem; } }
+                    &-9 { @include breakpoint(desktop) { font-size: 2.9rem; } }
+                }
+                &-3 {
+                    @include breakpoint(desktop) { font-size: 3rem; }
+                    &-1 { @include breakpoint(desktop) { font-size: 3.1rem; } }
+                    &-2 { @include breakpoint(desktop) { font-size: 3.2rem; } }
+                    &-3 { @include breakpoint(desktop) { font-size: 3.3rem; } }
+                    &-4 { @include breakpoint(desktop) { font-size: 3.4rem; } }
+                    &-5 { @include breakpoint(desktop) { font-size: 3.5rem; } }
+                    &-6 { @include breakpoint(desktop) { font-size: 3.6rem; } }
+                    &-7 { @include breakpoint(desktop) { font-size: 3.7rem; } }
+                    &-8 { @include breakpoint(desktop) { font-size: 3.8rem; } }
+                    &-9 { @include breakpoint(desktop) { font-size: 3.9rem; } }
+                }
+                &-4 { @include breakpoint(desktop) { font-size: 4rem; } }
+                &-5 { @include breakpoint(desktop) { font-size: 5rem; } }
+                &-6 { @include breakpoint(desktop) { font-size: 6rem; } }
+                &-7 { @include breakpoint(desktop) { font-size: 7rem; } }
+                &-8 { @include breakpoint(desktop) { font-size: 8rem; } }
+                &-9 { @include breakpoint(desktop) { font-size: 9rem; } }
+                &-10 { @include breakpoint(desktop) { font-size: 10rem; } }
+            }
+        }
+        &-color {
+            &-primary { color: $color_primary; }
+            &-secondary { color: $color_secondary; }
+            &-tertiary { color: $color_tertiary; }
+            &-quaternary { color: $color_quaternary; }
+            &-five { color: $color_five; }
+            &-six { color: $color_six; }
+            &-seven { color: $color_seven; }
+            &-eight { color: $color_eight; }
+            &-nine { color: $color_nine; }
+            &-ten { color: $color_ten; }
+            &-text_primary { color: $color_text_primary; }
+            &-black { color: $color_black; }
+            &-white { color: $color_white; }
+            &-transparent { color: $color_transparent; }
+        }
+        &-w {
+            &-light { font-weight: 300; }
+            &-normal { font-weight: 400; }
+            &-medium { font-weight: 500; }
+            &-semi { font-weight: 600; }
+            &-bold { font-weight: 700; }
+            &-extra { font-weight: 800; }
+            &-black { font-weight: 900; } 
+        }
+        &-lh {
+            &-100 { line-height: 100%; }
+            &-120 { line-height: 120%; }
+            &-150 { line-height: 150%; }
+        }
+        &-ls {
+            &-1 { letter-spacing: 1px; }
+            &-2 { letter-spacing: 2px; }
+            &-3 { letter-spacing: 3px; }
+            &-4 { letter-spacing: 4px; }
+            &-5 { letter-spacing: 5px; }
+        }
+    }
+}

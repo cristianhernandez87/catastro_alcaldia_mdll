@@ -1,0 +1,32 @@
+// box shadow
+.box-shadow {
+    &:after {
+        @extend %after-before-bas;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 2;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba($color_black, .9) 0%, rgba($color_black, .2) 100%);
+    }
+    &-350 {
+        &:after { height: 350px; }
+    }
+    &-400 {
+        &:after { height: 400px; }
+    }
+    &-450 {
+        &:after { height: 450px; }
+    }
+    &-500 {
+        &:after { height: 500px; }
+    }
+    &-600 {
+        &:after { height: 600px; }
+    }
+    &-700 {
+        &:after { height: 700px; }
+    }
+    > * { z-index: 3; }
+    .img { z-index: 1; }
+}

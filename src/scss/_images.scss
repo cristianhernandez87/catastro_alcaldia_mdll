@@ -1,0 +1,143 @@
+// images
+.img {
+    &.img {
+        &-auto { object-fit: cover; }
+        &-contain { object-fit: contain; }
+        &-w {
+            width: 100%;
+            &-1 { width: 1rem; }
+            &-2 { width: 2rem; }
+            &-3 { width: 3rem; }
+            &-4 { width: 4rem; }
+            &-5 { width: 5rem; }
+            &-6 { width: 6rem; }
+            &-7 { width: 7rem; }
+            &-8 { width: 8rem; }
+            &-9 { width: 9rem; }
+            &-10 { width: 10rem; }
+            &-50 { width: 50%; }
+            &-max { 
+                &-100 { max-width: 100%; }
+            }
+            &-lg {
+                &-1 { @include breakpoint(desktop) { width: 1rem !important; } }
+                &-2 { @include breakpoint(desktop) { width: 2rem !important; } }
+                &-3 { @include breakpoint(desktop) { width: 3rem !important; } }
+                &-4 { @include breakpoint(desktop) { width: 4rem !important; } }
+                &-5 { @include breakpoint(desktop) { width: 5rem !important; } }
+                &-6 { @include breakpoint(desktop) { width: 6rem !important; } }
+                &-7 { @include breakpoint(desktop) { width: 7rem !important; } }
+                &-8 { @include breakpoint(desktop) { width: 8rem !important; } }
+                &-9 { @include breakpoint(desktop) { width: 9rem !important; } }
+                &-10 { @include breakpoint(desktop) { width: 10rem !important; } }
+                &-11 { @include breakpoint(desktop) { width: 11rem !important; } }
+                &-12 { @include breakpoint(desktop) { width: 12rem !important; } }
+                &-13 { @include breakpoint(desktop) { width: 13rem !important; } }
+                &-14 { @include breakpoint(desktop) { width: 14rem !important; } }
+                &-15 { @include breakpoint(desktop) { width: 15rem !important; } }
+                &-50 { @include breakpoint(desktop) { width: 50% !important; } }
+                &-100 { @include breakpoint(desktop) { width: 100% !important; } }
+            }
+        }
+        &-h {
+            height: 100%;
+            &-1 { height: 1rem; }
+            &-2 { height: 2rem; }
+            &-3 { height: 3rem; }
+            &-4 { height: 4rem; }
+            &-5 { height: 5rem; }
+            &-6 { height: 6rem; }
+            &-7 { height: 7rem; }
+            &-8 { height: 8rem; }
+            &-9 { height: 9rem; }
+            &-10 { height: 10rem; }
+            &-50 { height: 50%; }
+            &-100 {
+                height: 100px;
+                &-vh { height: 100vh; }
+            }
+            &-150 { height: 150px; }
+            &-160 { height: 160px; }
+            &-170 { height: 170px; }
+            &-180 { height: 180px; }
+            &-190 { height: 190px; }
+            &-200 { height: 200px; }
+            &-210 { height: 210px; }
+            &-220 { height: 220px; }
+            &-230 { height: 230px; }
+            &-240 { height: 240px; }
+            &-250 { height: 250px; }
+            &-300 { height: 300px; }
+            &-350 { height: 350px; }
+            &-380 { height: 380px; }
+            &-400 { height: 400px; }
+            &-450 { height: 450px; }
+            &-500 { height: 500px; }
+            &-550 { height: 550px; }
+            &-600 { height: 600px; }
+            &-700 { height: 700px; }
+            &-md {
+                &-50 {
+                    &-vh {
+                        @include breakpoint(tablet) { height: 50vh !important; }
+                    }
+                }
+            }
+            &-lg {
+                @include breakpoint(desktop) { height: 100% !important; }
+                &-1 { 
+                    @include breakpoint(desktop) { height: 1rem; }
+                }
+                &-2 { 
+                    @include breakpoint(desktop) { height: 2rem; }
+                }
+                &-3 { 
+                    @include breakpoint(desktop) { height: 3rem; }
+                }
+                &-4 { 
+                    @include breakpoint(desktop) { height: 4rem; }
+                }
+                &-5 { 
+                    @include breakpoint(desktop) { height: 5rem; }
+                }
+                &-6 { 
+                    @include breakpoint(desktop) { height: 6rem; }
+                }
+                &-7 { 
+                    @include breakpoint(desktop) { height: 7rem; }
+                }
+                &-8 { 
+                    @include breakpoint(desktop) { height: 8rem; }
+                }
+                &-9 { 
+                    @include breakpoint(desktop) { height: 9rem; }
+                }
+                &-10 { 
+                    @include breakpoint(desktop) { height: 10rem; }
+                }
+                &-50 {
+                    @include breakpoint(desktop) { height: 50% !important; }
+                    &-vh {
+                        @include breakpoint(desktop) { height: 50vh !important; }
+                    }
+                }
+                &-100 {
+                    @include breakpoint(desktop) { height: 100px !important; }
+                    &-vh {
+                        @include breakpoint(desktop) { height: 100vh !important; }
+                    }
+                }
+                &-200 { @include breakpoint(desktop) { height: 200px !important; } }
+                &-250 { @include breakpoint(desktop) { height: 250px !important; } }
+                &-280 { @include breakpoint(desktop) { height: 280px !important; } }
+                &-300 { @include breakpoint(desktop) { height: 300px !important; } }
+                &-350 { @include breakpoint(desktop) { height: 350px !important; } }
+                &-400 { @include breakpoint(desktop) { height: 400px !important; } }
+                &-450 { @include breakpoint(desktop) { height: 450px !important; } }
+                &-500 { @include breakpoint(desktop) { height: 500px !important; } }
+                &-550 { @include breakpoint(desktop) { height: 550px !important; } }
+                &-600 { @include breakpoint(desktop) { height: 600px !important; } }
+            }
+        }
+    }
+}
