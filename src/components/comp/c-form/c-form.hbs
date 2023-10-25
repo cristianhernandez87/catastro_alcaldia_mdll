@@ -39,7 +39,7 @@
         <input type="text" class="form-control text text-family-secondary " placeholder="Número de contacto 2">
     </div>
     <div class="col-12 d-flex flex-wrap pt-3 border-top border-top-quaternary mb-4">
-        <h3 class="text text-color-black text-family-secondary text-size-1-1 text-w-semi pl-2 mb-3 col-12 px-0">Tipo de solicitud</h3>
+        <h3 class="text text-color-black text-family-secondary text-size-1-1 text-w-semi mb-3 col-12 px-0">Tipo de solicitud</h3>
         <div class="custom-control custom-radio col-12 col-md-6 col-lg-3">
             <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
             <label class="custom-control-label text text-family-secondary text-color-black" for="customRadio1">Compraventa registrada</label>
@@ -55,10 +55,38 @@
     </div>
 
     <div class="col-12 d-flex flex-wrap pt-3 border-top border-top-quaternary">
-        <h3 class="text text-color-black text-family-secondary text-size-1-1 text-w-semi pl-2 mb-3 col-12 px-0">Cargar documentos</h3>
-        <div class="custom-file col-12">
-            <input type="file" class="custom-file-input" id="customFile">
-            <label class="custom-file-label" for="customFile">Choose file</label>
+        <h3 class="text text-color-black text-family-secondary text-size-1-1 text-w-semi mb-3 col-12 px-0">Cargar documentos</h3>
+        <div class="form-group w-100 px-0 mb-3">
+            <p class="text text-color-black text-w-semi text-size-0-9 mb-2">Poder en caso de obrar a través de apoderado - <span class="text text-color-six text-family-secondary text-w-normal">Obligatorio</span></p>
+            <div class="custom-file mb-2">
+                <input type="file" class="custom-file-input" id="customFile">
+                <label class="custom-file-label text text-family-secondary" for="customFile">Seleccionar archivo para cargar…</label>
+            </div>
+            <p class="text text-color-black text-size-0-9 mb-2">Formato .PDF / Peso Máx: 10MB</p>
+        </div>
+        <div class="form-group w-100 px-0 mb-3">
+            <p class="text text-color-black text-w-semi text-size-0-9 mb-2">Certificado de existencia y representación legal en caso de personas jurídicas - <span class="text text-family-secondary text-w-normal">Opcional</span></p>
+            <div class="custom-file mb-2">
+                <input type="file" class="custom-file-input" id="customFile">
+                <label class="custom-file-label text text-family-secondary" for="customFile">Seleccionar archivo para cargar…</label>
+            </div>
+            <p class="text text-color-black text-size-0-9 mb-2">Formato .PDF / Peso Máx: 10MB</p>
+        </div>
+        <div class="form-group w-100 px-0 mb-3">
+            <p class="text text-color-black text-w-semi text-size-0-9 mb-2">Copia de la escritura pública, acto administrativo o fallo del juzgado</p>
+            <div class="custom-file mb-2">
+                <input type="file" class="custom-file-input" id="customFile">
+                <label class="custom-file-label text text-family-secondary" for="customFile">Seleccionar archivo para cargar…</label>
+            </div>
+            <p class="text text-color-black text-size-0-9 mb-2">Formato .PDF / Peso Máx: 10MB</p>
+        </div>
+        <div class="form-group w-100 px-0 mb-3">
+            <p class="text text-color-black text-w-semi text-size-0-9 mb-2">Copia del formulario de calificación de al Oficina de Registro de Instrumentos Públicos</p>
+            <div class="custom-file mb-2">
+                <input type="file" class="custom-file-input" id="customFile">
+                <label class="custom-file-label text text-family-secondary" for="customFile">Seleccionar archivo para cargar…</label>
+            </div>
+            <p class="text text-color-black text-size-0-9 mb-2">Formato .PDF / Peso Máx: 10MB</p>
         </div>
     </div>
 </form>

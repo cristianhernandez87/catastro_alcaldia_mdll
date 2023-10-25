@@ -1,0 +1,25 @@
+.c-form {
+    .custom {
+        &-file {
+            position: relative;
+            cursor: pointer;
+            &:after {
+                @extend %after-before-bas;
+                content: 'Cargar archivo';
+                font-weight: 500;
+                height: 100%;
+                width: auto;
+                padding: .5rem 1rem;
+                right: 0;
+                top: 0;
+                background-color: $color_secondary;
+                display: block;
+                z-index: 2;
+                color: $color_white;
+                font-size: .8rem;
+                border-radius: 0 5px 5px 0;
+                pointer-events: none;
+            }
+        }
+    }
+}
