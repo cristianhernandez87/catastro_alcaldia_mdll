@@ -38,7 +38,7 @@
         <label for="" class="text text-color-black text-family-secondary text-size-0-9 text-w-semi pl-2 mb-2">Número de contacto 2</label>
         <input type="text" class="form-control text text-family-secondary " placeholder="Número de contacto 2">
     </div>
-    <div class="col-12 d-flex flex-wrap pt-3 border-top border-top-quaternary mb-4">
+    <div class="col-12 d-flex flex-wrap pt-3 border-top border-top-quaternary mb-3">
         <h3 class="text text-color-black text-family-secondary text-size-1-1 text-w-semi mb-3 col-12 px-0">Tipo de solicitud</h3>
         <div class="custom-control custom-radio col-12 col-md-6 col-lg-3">
             <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
@@ -54,7 +54,7 @@
         </div>
     </div>
 
-    <div class="col-12 d-flex flex-wrap pt-3 border-top border-top-quaternary">
+    <div class="col-12 d-flex flex-wrap pt-3 border-top border-top-quaternary mb-3">
         <h3 class="text text-color-black text-family-secondary text-size-1-1 text-w-semi mb-3 col-12 px-0">Cargar documentos</h3>
         <div class="form-group w-100 px-0 mb-3">
             <p class="text text-color-black text-w-semi text-size-0-9 mb-2">Poder en caso de obrar a través de apoderado - <span class="text text-color-six text-family-secondary text-w-normal">Obligatorio</span></p>
@@ -90,8 +90,27 @@
         </div>
     </div>
 
-    <div class="col-12 d-flex flex-wrap pt-3 border-top border-top-quaternary">
+    <div class="col-12 d-flex flex-wrap pt-3 border-top border-top-quaternary mb-3">
         <h3 class="text text-color-black text-family-secondary text-size-1-1 text-w-semi mb-3 col-12 px-0">Registros</h3>
         {{> @c-table }}
+    </div>
+
+    <div class="form-group col-12 pt-3 border-top border-top-quaternary mb-3">
+        <label for="" class="text text-color-black text-family-secondary text-size-0-9 text-w-semi pl-2 mb-2 d-block">Tipo de identificación</label>
+        <p class="text text-color-black text-family-secondary text-size-0-9 mb-2">Describa brevemente y de forma legible su solicitud</p>
+        <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group col-12 pt-3 border-top border-top-quaternary mb-3">
+        <label for="" class="text text-color-black text-family-secondary text-size-0-9 text-w-semi pl-2 mb-2 d-block">AUTORIZACIÓN DE NOTIFICACIÓN</label>
+        <p class="text text-color-black text-family-secondary text-size-0-9 mb-4">Si desea ser notificado, recibir información por correo electrónico referentes a su solicitud, seleccione la información listada a continuación:</p>
+        <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault_1">
+            <label class="form-check-label text text-color-black text-family-secondary text-size-0-9 pl-3" for="flexCheckDefault_1">Autorizo de manera expresa a que me notifiquen o comuniquen al correo electrónico aquí suministrado, la respuesta a escritos o solicitudes, así como también informaciones, decisiones, requerimientos, el envío del documento de cobro, citaciones</label>
+        </div>
+        <div class="form-check mb-3">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault_2">
+            <label class="form-check-label text text-color-black text-family-secondary text-size-0-9 pl-3" for="flexCheckDefault_2">Se informa que los datos aquí suministrados serán de uso exclusivo de la entidad, en cumplimiento de la normatividad y de la Política de Protección de Datos Personales del Distrito de Medellín, por lo cual, al diligenciar este formulario, estoy de acuerdo con el tratamiento de la información que suministro en los términos allí previstos. (Artículo 9 de la Ley 1581 de 2012 y 7 del Decreto 1377 de 2013).</label>
+        </div>
     </div>
 </form>

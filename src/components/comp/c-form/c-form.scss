@@ -22,4 +22,31 @@
             }
         }
     }
+    .form {
+        &-check {
+            &-input {
+                @include border-radius(2px);
+                appearance: none;
+                width: 1.5rem;
+                height: 1.5rem;
+                border: 1px solid #6C7071;
+                background-color: $color_white;
+                &:after {
+                    @extend %after-before-bas;
+                    @extend %transform_05;
+                    content: "✓";
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    color:  $color_white;
+                    opacity: 0;
+                }
+                &:checked {
+                    background-color: #35BCD9;
+                    border-color: #1FAEEF;
+                    &:after { opacity: 1; }
+                }
+            }
+        }
+    }
 }
