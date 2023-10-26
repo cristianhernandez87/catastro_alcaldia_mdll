@@ -1,5 +1,5 @@
 <form 
-    class="c-form col-12 px-0 d-flex flex-wrap"
+    class="c-form col-12 px-0 d-flex flex-wrap mb-5"
     action="">
     <div class="form-group col-12 col-md-6 col-lg-3">
         <label for="" class="text text-color-black text-family-secondary text-size-0-9 text-w-semi pl-2 mb-2">Nombre completo</label>
@@ -88,5 +88,10 @@
             </div>
             <p class="text text-color-black text-size-0-9 mb-2">Formato .PDF / Peso Máx: 10MB</p>
         </div>
+    </div>
+
+    <div class="col-12 d-flex flex-wrap pt-3 border-top border-top-quaternary">
+        <h3 class="text text-color-black text-family-secondary text-size-1-1 text-w-semi mb-3 col-12 px-0">Registros</h3>
+        {{> @c-table }}
     </div>
 </form>
